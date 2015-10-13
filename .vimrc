@@ -1,5 +1,5 @@
 "------------------------------------------------
-"vim config for knifefat Ver:0.1 date:2015/10/12
+"vim config for johnsoncgz Ver:0.1 date:2015/10/12
 "------------------------------------------------
 
 
@@ -67,6 +67,7 @@ let g:rehash256 = 1
 "------------------------------------------------
 
 nnoremap <silent> <F5> :NERDTree<CR>
+let g:NERDTreeWinPos = "right"
 
 "------------------------------------------------
 ""plugin content config end
