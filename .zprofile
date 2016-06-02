@@ -8,7 +8,7 @@ case $TTY in
 	/dev/tty[0-9]*)
 		[ "$LANG" != "en_US.UTF-8" ] && export LANG=en_US.UTF-8
 		;;
-	/dev/ttyS[0-9]*)
+	/dev/ttyS[0-9]* | /dev/rfcomm[0-9]*)
 		[ "$LANG" != "en_US.UTF-8" ] && export LANG=en_US.UTF-8
 		if [ -e /usr/bin/resize ]; then
 			if [ "$SHELL" = /usr/bin/zsh ] || [ "$SHELL" = /bin/zsh ]; then
