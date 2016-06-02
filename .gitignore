@@ -1,7 +1,7 @@
-.vim/plugged/molokai/.git
+#.vim/plugged/molokai/.git
 #.vim/plugged/molokai/README.md
-.vim/plugged/nerdtree/.git
-.vim/plugged/nerdtree/.gitignore
+#.vim/plugged/nerdtree/.git
+#.vim/plugged/nerdtree/.gitignore
 #.vim/plugged/nerdtree/README.markdown
-.vim/plugged/python-mode/.git
-.vim/plugged/python-mode/.gitignore
+#.vim/plugged/python-mode/.git
+#.vim/plugged/python-mode/.gitignore
