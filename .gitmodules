@@ -1,0 +1,9 @@
+[submodule ".vim/plugged/molokai"]
+	path = .vim/plugged/molokai
+	url = https://github.com/tomasr/molokai.git
+[submodule ".vim/plugged/nerdtree"]
+	path = .vim/plugged/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule ".vim/plugged/python-mode"]
+	path = .vim/plugged/python-mode
+	url = https://github.com/klen/python-mode.git
