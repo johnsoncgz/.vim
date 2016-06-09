@@ -14,7 +14,8 @@ bindkey		"^[[6~"		end-of-buffer-or-history
 
 # End of lines configured by zsh-newuser-install
 
-setopt nohup
+setopt NO_CHECK_JOBS
+setopt NO_HUP
 
 zstyle ':completion:*' menu select
 
