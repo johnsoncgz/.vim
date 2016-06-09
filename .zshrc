@@ -14,6 +14,8 @@ bindkey		"^[[6~"		end-of-buffer-or-history
 
 # End of lines configured by zsh-newuser-install
 
+setopt nohup
+
 zstyle ':completion:*' menu select
 
 autoload -U colors && colors
