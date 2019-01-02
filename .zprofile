@@ -15,7 +15,7 @@ case $TTY in
 				function precmd {
 					eval `/usr/bin/resize`
 				}
-			elif [ "$SHELL" = /bin/bash ]; then
+			elif [ "$SHELL" = /usr/bin/bash ] || [ "$SHELL" = /bin/bash ]; then
 				PROMPT_COMMAND="eval `/usr/bin/resize`"
 			fi
 		fi
